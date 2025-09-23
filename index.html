@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advik Luharuka - Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background: #222;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    header p {
+      margin: 5px 0 0;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 15px;
+    }
+
+    .card-content h3 {
+      margin: 0 0 10px;
+      font-size: 1.2rem;
+    }
+
+    .card-content p {
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    .card-content a {
+      display: inline-block;
+      margin-top: 10px;
+      text-decoration: none;
+      padding: 8px 12px;
+      background: #007bff;
+      color: #fff;
+      border-radius: 5px;
+      transition: background 0.2s;
+    }
+
+    .card-content a:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Advik Luharuka</h1>
+    <p>Frontend Developer | Web Designer | JavaScript Enthusiast</p>
+  </header>
+
+  <section class="gallery">
+    <!-- Project Card 1 -->
+    <div class="card">
+    
+      <div class="card-content">
+        <h3>Money handling Website</h3>
+        <p>An Expense Tracker</p>
+        <a href="https://luharuka-byte.github.io/Expense-tracker/" target="_blank">View Project</a>
+      </div>
+    </div>
+  
+
+  <div class="card">
+      
+
+    
+      <div class="card-content">
+        <h3>Pokedex Website</h3>
+        <p>A Mini Pokedex</p>
+        <a href="https://luharuka-byte.github.io/Pokedex/" target="_blank">View Project</a>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>_
